@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>SILVIA PAC3 Express JS con MongoDB</title>
+</head>
+
+<body style="margin-left: 2cm; font-family:  Helvetica;">
+    <div>
+        <h3 id="mascotaP" >Busca tu mascota preferida 🐕 🐈 🐇 🐹 🐠 🦜🐢</h3>
+        <input type="text" placeholder="Busca tu mascota" class="inputBuscar" id="mascotaBuscar" />
+        <button id="button-Buscar" onclick="buscar()">Buscar</button>
+    </div>
+    <hr>
+    <div>
+        <h3 id="color-mascota" >Añade aquí tu mascota 📝</h3>
+        <input type="text" placeholder="Animal" class="inputDatos" id="animal" />
+        <input type="text" placeholder="Raza" class="inputDatos" id="raza" />
+        <input type="number" placeholder="Esperanza de vida" class="inputDatos" id="vida" />
+        <input type="text" placeholder="Descripción"class="inputDatos" id="descripcion" />
+        <button id="buttonInsertar" onclick="insertar()">Añadir</button>
+    </div>
+    <!--Editar animal -->
+    <h3 id="editaAni" >Edita animal existente ✏️</h3>
+    <input type="text" placeholder="Animal" class="inputEditar" id="animalEditar" />
+    <input type="text" placeholder="Raza" class="inputEditar" id="razaEditar" />
+    <input type="number" placeholder="Esperanza de vida " class="inputEditar" id="vidaEditar" />
+    <input type="text" placeholder="Descripción" class="inputEditar" id="descripcionEditar" />
+    <button id="button-Editar" onclick="editar()">Editar</button>
+
+    
+     <!--Borrar animal -->
+    <h3 id="BorrarAni" >Borrar animal 🗑️</h3>
+    <input type="text" placeholder="Animal" class="inputBorrar" id="borrarAnimal" />
+    <button id="buttonBorrar" onclick="borrar()">Eliminar</button>
+   
+    <div id="div1">
+     
+    </div>
+    
+</body>
+<script src="demo.js"></script>
+</html>

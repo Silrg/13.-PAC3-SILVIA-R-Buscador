@@ -1,0 +1,104 @@
+#div1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+    background-size: cover;
+   
+}
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: fit-content;
+    max-width: 100%;
+    height: 100%;
+    margin: 15px;
+    padding:10px;
+    box-shadow:  0 10px 20px 0 rgb(5, 158, 204);
+    border: solid black 3px;
+    border-radius: 10px;
+    background-color: #a0dcee;
+    text-align: center;
+    
+
+    
+  
+}
+#card:hover{
+    opacity: 0.9;
+    color: rgb(215, 213, 230);
+    background-color: rgb(90, 77, 199);
+}
+body {
+    /*background-color: rgb(220, 177, 245) ; */
+   
+    background-repeat:  no-repeat;
+    background-image: url("https://static.elcomercio.es/www/multimedia/202204/08/media/cuanto-cuesta-mantener-animales.jpg");
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+ 
+
+}
+
+#mascotaP {
+    color:rgb(197, 21, 21);
+
+}
+
+#color-mascota {
+    color:rgb(78, 7, 72);
+    
+} 
+
+#editaAni {
+    color: rgb(20, 117, 44);
+}
+
+#BorrarAni {
+    color: rgb(68, 62, 62);
+}
+
+#button-Buscar {
+    background-color: rgb(238, 143, 143);
+    border-radius: 3px;
+    border-color: rgb(197, 21, 21);
+
+}
+
+#button-Editar {
+    background-color: rgb(147, 218, 165);
+    border-radius: 3px;
+    border-color: rgb(20, 117, 44);
+}
+
+#buttonInsertar {
+    background-color: rgb(171, 166, 216);
+    border-radius: 3px;
+    border-color: rgb(78, 7, 72);
+}
+
+#buttonBorrar {
+    background-color:  rgb(245, 241, 15);
+    border-radius: 3px;
+    border-color:  rgb(68, 62, 62);
+}
+
+.inputBuscar {
+    border-color:  rgb(146, 36, 36);
+    background-color: rgb(252, 197, 208);
+}
+.inputDatos {
+    border-color:  rgb(49, 18, 53);
+    background-color: rgb(233, 215, 248);
+}
+.inputEditar {
+    border-color:  rgb(22, 68, 32);
+    background-color: rgb(165, 243, 195);
+}
+.inputBorrar{
+    border-color: rgb(99, 99, 48); 
+    background-color: rgb(240, 240, 151);
+}
